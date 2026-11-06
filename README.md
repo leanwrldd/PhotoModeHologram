@@ -25,7 +25,7 @@ The view appears in Smart Camera's settings as **Camera Mode View**. You can mov
 
 ## Smart!
 
-Smart! clears its grid and extend previews when camera mode opens. Keeping them needs a Smart! build with the camera mode fix, which isn't in a published release yet.
+Smart! clears its grid and extend previews when camera mode opens. Keeping them needs a Smart! compatibility update, which isn't in a published release yet.
 
 ## Not yet tested
 
