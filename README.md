@@ -18,7 +18,7 @@ Holograms the game can't lock will follow your view instead of staying in place.
 This mod has not been tested in game yet, including:
 
 - Camera mode with the free camera
-- Multiplayer and dedicated servers. The mod is client side, so it should not need to be installed on the server.
+- Multiplayer and dedicated servers. The mod should be installed on the host or server as well as the client.
 
 ## Building
 

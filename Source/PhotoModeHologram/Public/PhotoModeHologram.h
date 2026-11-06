@@ -18,7 +18,7 @@ private:
 	static void KeepBuildGunInPhotoMode();
 
 	/// Locks the current hologram so it stops following the view.
-	static void LockHologram(AFGCharacterPlayer* character);
+	static void LockHologram(AFGCharacterPlayer* character, bool wasLocked);
 
 	/// Releases the hologram, but only if LockHologram was what locked it.
 	static void UnlockHologram(AFGCharacterPlayer* character);
