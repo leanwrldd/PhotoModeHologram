@@ -1,5 +1,6 @@
 #include "PhotoModeHologram.h"
 
+#include "PhotoModeFreecamView.h"
 #include "Equipment/FGBuildGun.h"
 #include "Equipment/FGBuildGunBuild.h"
 #include "FGCharacterPlayer.h"
@@ -85,11 +86,18 @@ void FPhotoModeHologramModule::KeepBuildGunInPhotoMode()
 			scope(character, enabled);
 			GKeepBuildGun = enabled;
 
+			UPhotoModeFreecamView* freecamView = character->GetWorld()->GetSubsystem<UPhotoModeFreecamView>();
 			if (enabled)
+			{
 				LockHologram(character, wasLocked);
+				if (freecamView && hologram)
+					freecamView->OnPhotoModeOpened(character);
+			}
 			else
 			{
 				UnlockHologram(character);
+				if (freecamView)
+					freecamView->OnPhotoModeClosed();
 
 				const UFGBuildGunStateBuild* buildStateAfter = GetBuildState(character);
 				UE_LOG(LogPhotoModeHologram, Log, TEXT("Photo mode closed. Gun equipped: %d, hologram: %s"),

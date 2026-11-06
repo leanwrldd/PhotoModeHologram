@@ -13,12 +13,23 @@ Built with [SML](https://ficsit.app/mod/SML) (Satisfactory Mod Loader) 3.12 for 
 
 Holograms the game can't lock will follow your view instead of staying in place.
 
+## Smart Camera
+
+[Smart Camera](https://ficsit.app/mod/SmartCamera) is optional. With version 2.0 installed:
+
+- Close camera mode and the build viewport shows where you left the free camera, so you can keep an eye on that spot while you build
+- The view stays while you place pieces and switch recipes
+- Put the build gun away or switch to dismantle, and the normal build preview comes back
+
+The view appears in Smart Camera's settings as **Camera Mode View**. You can move and resize it with F8, separately from the build preview. Other Smart Camera versions turn this feature off, and the rest of the mod keeps working.
+
+## Smart!
+
+Smart! clears its grid and extend previews when camera mode opens. Keeping them needs a Smart! build with the camera mode fix, which isn't in a published release yet.
+
 ## Not yet tested
 
-This mod has not been tested in game yet, including:
-
-- Camera mode with the free camera
-- Multiplayer and dedicated servers. The mod should be installed on the host or server as well as the client.
+Tested in single player. Multiplayer and dedicated servers have not been tested. The mod should be installed on the host or server as well as the client.
 
 ## Building
 

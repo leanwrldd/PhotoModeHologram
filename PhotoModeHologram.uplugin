@@ -1,9 +1,9 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.0",
+	"VersionName": "1.1.0",
 	"FriendlyName": "Photo Mode Hologram",
-	"Description": "Opening camera mode no longer puts the build gun away. Your hologram stays where it is, locked in place, so you can look around it before you build. Close camera mode and carry on building.",
+	"Description": "Opening camera mode no longer puts the build gun away. Your hologram stays where it is, locked in place, so you can look around it before you build. Close camera mode and carry on building. With Smart Camera installed, its build viewport shows where you left the free camera.",
 	"Category": "Modding",
 	"CreatedBy": "leanwrldd",
 	"CreatedByURL": "https://github.com/leanwrldd/PhotoModeHologram",
@@ -27,8 +27,14 @@
 			"Name": "SML",
 			"Enabled": true,
 			"SemVersion": "^3.12.0"
+		},
+		{
+			"Name": "SmartCamera",
+			"Enabled": true,
+			"Optional": true,
+			"SemVersion": ">=2.0.0"
 		}
 	],
-	"SemVersion": "1.0.0",
+	"SemVersion": "1.1.0",
 	"GameVersion": ">=491125"
 }

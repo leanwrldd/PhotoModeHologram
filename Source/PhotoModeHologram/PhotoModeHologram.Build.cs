@@ -12,6 +12,7 @@ public class PhotoModeHologram : ModuleRules
 			"Engine",
 			"InputCore", "EnhancedInput",
 			"GameplayTags", "NetCore",
+			"Projects",
 		});
 
 		// Header stubs
